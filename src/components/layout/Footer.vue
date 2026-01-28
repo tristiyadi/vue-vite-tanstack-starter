@@ -48,9 +48,9 @@ import { Zap } from 'lucide-vue-next'
       <div class="pt-8 border-t border-border flex flex-col md:flex-row justify-between items-center gap-4 text-xs text-muted-foreground">
         <p>© 2026 VueStarter. All rights reserved.</p>
         <div class="flex gap-6">
-          <a href="#" class="hover:text-primary transition-colors">Twitter</a>
-          <a href="#" class="hover:text-primary transition-colors">GitHub</a>
-          <a href="#" class="hover:text-primary transition-colors">LinkedIn</a>
+          <a href="https://twitter.com/ekotristiyadi" target="_blank" class="hover:text-primary transition-colors">Twitter</a>
+          <a href="https://github.com/tristiyadi" target="_blank" class="hover:text-primary transition-colors">GitHub</a>
+          <a href="https://linkedin.com/in/ekotristiyadi" target="_blank" class="hover:text-primary transition-colors">LinkedIn</a>
         </div>
       </div>
     </div>

@@ -14,7 +14,8 @@ import {
   List,
   ChevronDown,
   ChevronRight,
-  UserCog
+  UserCog,
+  Globe
 } from "lucide-vue-next";
 import { useLogout } from "../../composables/auth/useAuth";
 import Cookies from "js-cookie";
@@ -280,6 +281,13 @@ onUnmounted(() => {
               </div>
             </transition>
           </div>
+
+          <!-- Go to Front-end Website -->
+          <Button variant="ghost" size="icon" as-child class="hidden sm:inline-flex">
+            <router-link to="/" title="Go to Website">
+              <Globe class="h-5 w-5 text-muted-foreground" />
+            </router-link>
+          </Button>
 
           <div class="h-8 w-[1px] bg-border mx-2"></div>
 
